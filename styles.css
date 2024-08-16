@@ -1,0 +1,73 @@
+@font-face{
+    font-family: 'ARCADECLASSIC';
+    src: url('./ARCADECLASSIC.TTF') format("truetype");
+    }
+
+h1{
+    font-family: "ARCADECLASSIC", sans-serif;
+    font-size: 7rem;
+    display: flex;
+    justify-content: center;
+    word-spacing: 2rem;
+    color: #4F1787;
+    text-shadow: 2px 2px 0 #EB3678, /* Right and Down */
+                 -2px -2px 0 #000, /* Left and Up */
+                 2px -2px 0 #000, /* Right and Up */
+                 -2px 2px 0 #000; /* Left and Down */
+    /* text-shadow: X-offset Y-offset blur-radius color */
+    /* Example: 2px 2px 0 #000, 
+    - X-offset (horizontal shift)
+    - Y-offset (vertical shift)
+    - Blur radius (0 for no blur, >0 for blurred shadow)
+    A value of 0px means there is no blur, so the shadow will have a sharp edge.
+    - Color (in this case, #000 for black)
+    */
+}
+body{
+    background-color: #180161;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; Horizontally center the grid */
+    align-items: center; /* Vertically center the grid */
+    height: 100vh; /* Make sure the body takes up the full viewport height */
+    margin: 0; /* Remove any default margin */
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+}
+.gamePlay{
+    display: grid;
+    grid-template-columns: 275px 275px;
+    grid-template-rows: 275px 275px;
+}
+#zero{
+    background-color: #0A6847;
+}
+#one{
+    background-color: #5A639C;
+}
+#two{
+    background-color: #F3CA52;
+}
+#three{
+    background-color: #FC4100;
+}
+.notPressed{
+    box-shadow: 10px 10px 0 #EB3678, /* Right and Down */
+                10px 10px 0 #EB3678, /* Left and Up */
+                10px 10px 0 #EB3678, /* Right and Up */
+                10px 10px 0 #EB3678; /* Left and Down */;
+}
+.pressed{
+    box-shadow: -10px -10px 0 white, /* Right and Down */
+                -10px -10px 0 white, /* Left and Up */
+                -10px -10px 0 white, /* Right and Up */
+                -10px -10px 0 white; /* Left and Down */;
+}
+
+.game-over {
+    font-size: 5rem; /* Adjust the size as needed */
+}
