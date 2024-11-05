@@ -33,8 +33,8 @@
 
 <h3>How to Play</h3>
 <ul>
-  <li>Start the Game: Press any key to begin. The game will display a sequence of colors in a specific order.</li>
-  <li>Follow the Sequence: Click on the colored boxes in the same order as displayed to proceed to the next level.</li>
+  <li>Start the Game: Press any key to begin. The game will start displaying a sequence of colors in a specific order.</li>
+  <li>Follow the Sequence: After each round, the game adds a new color to the sequence and briefly shows it. Click the colors in the correct order from the beginning of the sequence to the end.</li>
   <li>Increasing Difficulty: Each level adds a new color to the sequence. Try to remember and repeat the entire sequence correctly. </li>
   <li>Game Over: If you click the wrong color, the game ends, and you can restart by pressing a key. </li>
 </ul>
@@ -42,5 +42,4 @@
 <h3>Credits</h3>
 <ul>
   <li>This project was created as part of The Complete 2024 Web Development Bootcamp. The sound effect were provided with the problem discription. </li>
-  <li>Put the link to the font here</li>
 </ul>
