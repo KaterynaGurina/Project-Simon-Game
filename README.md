@@ -6,7 +6,6 @@
   <li>Demo</li>
   <li>Features</li>
   <li>Technologies Used</li>
-  <li>Setup</li>
   <li>How to Play</li>
   <li>Credits</li>
 </ol>
