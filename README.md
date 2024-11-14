@@ -12,7 +12,7 @@
 <h3>Demo</h3>
 <p>To see the game in action, you can:</p>
 <ul>
-  <li>Play Online: Visit the game directly in your browser via this link: <a href="https://katerynagurina.github.io/SimonGame/">Simon Game </a></li>
+  <li>Play Online: Visit the game directly in your browser via this link: <a href="https://katerynagurina.github.io/Project-Simon-Game/">Simon Game </a></li>
   <li>Run Locally: Download the project, then open the index.html file in your browser to play offline.</li>
 </ul>
 
